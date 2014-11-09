@@ -1,6 +1,8 @@
 #### Question 1
 # Define a class called `Pet`, and a class `Dog` that inherits from `Pet`.
 class Pet
+end
+
 class Dog < Pet
 end
 
@@ -12,6 +14,8 @@ class Pet
   def initialize(name)
     @name = name
   end
+end
+
 class Dog < Pet
 end
 
@@ -23,6 +27,8 @@ class Pet
   def initialize(name)
     @name = name
   end
+end
+
 class Dog < Pet
   def bark
     "bark bark"
